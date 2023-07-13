@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <title>Quest formulário</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="informacoes">
+        <div class="textos">
+          <h1 class="texto1">
+            Ficou com uma dúvida? <br />
+            Nos mande uma mensagem!
+          </h1>
+          <p class="texto2">
+            caso tenha ficado com qualquer dpuvida basta nos mandar uma mensagem
+            e entraremos em contato em menos de 24 h.
+          </p>
+        </div>
+      </section>
+      <form class="dados" id="formulario ">
+        <div class="form-content">
+          <input
+            class="input"
+            type="text"
+            name="nome"
+            id="name"
+            placeholder="Nome completo *"
+          />
+          <p>Preencha com seu nome</p>
+        </div>
+        <div class="form-content">
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email *"
+          />
+          <p>Preencha com seu E-mail</p>
+        </div>
+        <div class="form-content">
+          <input
+            class="input"
+            name="telefone"
+            id="telefone"
+            placeholder="Telefone *"
+          />
+          <p>Preencha com seu telefone</p>
+        </div>
+        <div class="form-content">
+          <input
+            class="input-mensagem"
+            type="text"
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem *"
+          />
+          <p>Preencha com uma mensagem</p>
+        </div>
+        <h3 class="info-obrigatorio">*campos obrigatórios</h3>
+
+        <input class="btn-enviar" type="submit" value="Enviar" />
+      </form>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
